@@ -1,0 +1,315 @@
+0x00000000 Section: ../DeMiSTify/EightThirtyTwo/lib832/crt0.a,.text.startup
+0x00000000    _start
+0x0000000d    _InterruptVector
+0x0000001d    .start1
+0x00000023    .start2
+0x00000000    _STACKSIZE
+0x00000029 Section: ../DeMiSTify/EightThirtyTwo/lib832/crt0.a,.text.interrupt
+0x00000029    _interrupt
+0x0000002a Section: ../DeMiSTify/EightThirtyTwo/lib832/crt0.a,.text.premain2
+0x0000002a    _premain2
+0x0000002a    .endloop2
+0x0000002d Section: ../DeMiSTify/EightThirtyTwo/lib832/crt0.a,.text.premain
+0x0000002d    _premain
+0x0000003d    .stackloop
+0x0000004d    .clrwordloop
+0x0000005a    .clrbyteloop
+0x00000069    .ctorloop
+0x00000072    .ctordone
+0x0000007d    .dtorloop
+0x00000088    .endloop
+0x0000008b Section: ../DeMiSTify/EightThirtyTwo/lib832/libtiny832.a,.text.0
+0x0000008b    _putchar
+0x00000093    l5
+0x000000a6 Section: ../DeMiSTify/EightThirtyTwo/lib832/libtiny832.a,.text.strncpy
+0x000000a6    ___strncpy
+0x000000aa    .strnloop
+0x000000b4    .done
+0x000000b6 Section: configstring.o,.text.0
+0x000000b6    _configstring_next
+0x000000c1 Section: configstring.o,.text.1
+0x000000c1    _configstring_begin
+0x000000d5 Section: configstring.o,.text.2
+0x000000d5    _configstring_end
+0x000000de Section: configstring.o,.text.3
+0x000000de    _configstring_nextfield
+0x000000df    l13
+0x000000ee    l14
+0x000000f2 Section: configstring.o,.text.4
+0x000000f2    _configstring_copytocomma
+0x00000113    l34
+0x00000121    l23
+0x00000128    l26
+0x0000013e    l35
+0x00000146    l30
+0x00000150    l32
+0x00000155    l33
+0x0000015d Section: configstring.o,.text.5
+0x0000015d    _configstring_getdigit
+0x00000173    l39
+0x00000182    l42
+0x00000186 Section: main.o,.text.6
+0x00000186    l75
+0x00000189 Section: main.o,.text.7
+0x00000189    _selectrom
+0x0000018c Section: main.o,.text.9
+0x0000018c    l33
+0x0000018f Section: main.o,.text.c
+0x0000018f    l90
+0x00000198 Section: main.o,.text.d
+0x00000198    l34
+0x000001b7 Section: main.o,.text.e
+0x000001b7    _sendstatus
+0x000001e4 Section: main.o,.text.f
+0x000001e4    _cycle
+0x00000220    l100
+0x00000260 Section: main.o,.text.10
+0x00000260    _toggle
+0x00000272 Section: main.o,.text.11
+0x00000272    l103
+0x00000293    l110
+0x000002a5    l112
+0x000002c3 Section: main.o,.text.12
+0x000002c3    _parseconf
+0x00000360    l121
+0x0000036b    l118
+0x0000036e    l123
+0x0000037f    l201
+0x00000391    l202
+0x000003a7    l132
+0x000003d8    l203
+0x000003ea    l209
+0x00000410    l143
+0x00000418    l144
+0x0000041d    l134
+0x0000042c    l146
+0x00000433    l208
+0x00000483    l151
+0x00000497    l153
+0x0000049d    l204
+0x000004a9    l210
+0x000004b2    l159
+0x0000051e    l161
+0x00000554    l164
+0x0000055f    l166
+0x0000057d    l169
+0x00000580    l170
+0x000005df    l173
+0x000005e1    l174
+0x0000060d    l205
+0x00000628    l180
+0x0000062a    l181
+0x00000647    l211
+0x00000660    l184
+0x0000066d    l185
+0x00000682    l187
+0x0000068d    l189
+0x00000695    l148
+0x0000069a    l190
+0x000006b4    l207
+0x000006c0    l192
+0x000006de    l212
+0x00000705    l197
+0x00000719    l199
+0x00000734 Section: main.o,.rodata.13
+0x00000734    l119
+0x0000073d Section: main.o,.rodata.14
+0x00000740    l176
+0x00000743 Section: main.o,.rodata.15
+0x00000744    l198
+0x0000074b Section: main.o,.rodata.16
+0x0000074c    l200
+0x00000753 Section: main.o,.text.17
+0x00000753    _buildmenu
+0x00000772 Section: main.o,.text.18
+0x00000772    _autoboot
+0x00000777 Section: main.o,.text.19
+0x00000777    _main
+0x000007bd    l222
+0x000007c2    l223
+0x000007c5    l227
+0x000007cd Section: main.o,.rodata.1a
+0x000007d0    l220
+0x000007db Section: main.o,.data.1e
+0x000007dc    _menu
+0x00000848 Section: interrupts.o,.text.0
+0x00000848    l1
+0x00000853 Section: interrupts.o,.text.1
+0x00000853    _SetIntHandler
+0x0000085f Section: interrupts.o,.text.2
+0x0000085f    _intconstructor
+0x00000868 Section: interrupts.o,.text.3
+0x00000868    _GetInterrupts
+0x0000086f Section: interrupts.o,.text.4
+0x0000086f    _EnableInterrupts
+0x00000877 Section: interrupts.o,.text.5
+0x00000877    _DisableInterrupts
+0x0000087f Section: ps2.o,.text.0
+0x0000087f    _ps2_ringbuffer_init
+0x00000887 Section: ps2.o,.text.1
+0x00000887    _ps2_ringbuffer_read
+0x000008aa    l6
+0x000008d0    l3
+0x000008da Section: ps2.o,.text.2
+0x000008da    _ps2_ringbuffer_receive
+0x0000090d Section: ps2.o,.text.4
+0x0000090d    _PS2Handler
+0x00000929    l16
+0x00000935 Section: ps2.o,.text.5
+0x00000935    _PS2Init
+0x00000949 Section: keyboard.o,.text.0
+0x00000949    _HandlePS2RawCodes
+0x0000095c    l20
+0x0000096b    l9
+0x0000097a    l12
+0x00000987    l15
+0x00000989    l16
+0x000009b1    l18
+0x000009cc    l19
+0x000009d8    l13
+0x000009e8    l21
+0x000009ee Section: keyboard.o,.data.1
+0x000009f0    l3
+0x000009f4 Section: keyboard.o,.data.2
+0x000009f4    l4
+0x000009f8 Section: keyboard.o,.text.3
+0x000009f8    _ClearKeyboard
+0x000009fb    l28
+0x00000a0f Section: keyboard.o,.text.4
+0x00000a0f    _TestKey
+0x00000a4c Section: keyboard.o,.data.5
+0x00000a4c    _keytable
+0x00000a8c Section: user_io.o,.text.2
+0x00000a8c    _spi_uio_cmd8_cont
+0x00000aa2 Section: user_io.o,.text.3
+0x00000aa2    _spi_uio_cmd8
+0x00000ab8 Section: user_io.o,.text.4
+0x00000ab8    _user_io_digital_joystick_ext
+0x00000ad0 Section: osd.o,.text.0
+0x00000ad0    _spi_osd_cmd_cont
+0x00000adf Section: osd.o,.text.1
+0x00000adf    _spi_osd_cmd
+0x00000aec Section: osd.o,.text.4
+0x00000aec    _OsdWriteStart
+0x00000afb    l16
+0x00000b1a    l18
+0x00000b1c    l19
+0x00000b2b    l21
+0x00000b2f    l22
+0x00000b3d Section: osd.o,.text.5
+0x00000b3d    _OsdPutChar
+0x00000b5a    l26
+0x00000b5e    l27
+0x00000b60    l32
+0x00000b8c Section: osd.o,.text.6
+0x00000b8c    _OsdPuts
+0x00000b97    l39
+0x00000ba2    l40
+0x00000ba6 Section: osd.o,.text.7
+0x00000ba6    _OsdWriteEnd
+0x00000bba    l46
+0x00000bd5    l47
+0x00000be2 Section: font.o,.data.0
+0x00000be4    _font
+0x00000f24 Section: menu.o,.text.0
+0x00000f24    _Menu_Draw
+0x00000f35    l13
+0x00000f41    l10
+0x00000f43    l11
+0x00000f72 Section: menu.o,.text.1
+0x00000f72    _Menu_Set
+0x00000f85 Section: menu.o,.text.2
+0x00000f85    _Menu_ShowHide
+0x00000f9b    l21
+0x00000f9d    l22
+0x00000fa3    l20
+0x00000fa7    l24
+0x00000fbc Section: menu.o,.text.5
+0x00000fbc    _Menu_Joystick
+0x00000fcb Section: menu.o,.text.6
+0x00000fcb    _SetScandouble
+0x00000fed Section: menu.o,.text.7
+0x00000fed    _Menu_Run
+0x0000102e    l111
+0x00001031    l45
+0x0000105f    l50
+0x00001072    l114
+0x0000109a    l53
+0x000010aa    l112
+0x000010b7    l60
+0x000010e7    l55
+0x00001108    l64
+0x00001115    l62
+0x0000111b    l66
+0x00001131    l67
+0x00001143    l71
+0x00001153    l74
+0x00001158    l68
+0x0000116e    l75
+0x00001186    l79
+0x00001199    l82
+0x0000119e    l76
+0x000011bd    l86
+0x000011d0    l89
+0x000011d5    l84
+0x000011f8    l93
+0x0000120b    l96
+0x00001210    l91
+0x00001240    l113
+0x00001269    l103
+0x00001288    l116
+0x000012ad    l107
+0x000012bb    l110
+0x000012c5 Section: menu.o,.data.8
+0x000012c8    _scandouble
+0x000012cc Section: menu.o,.data.9
+0x000012cc    _joy_keymap
+0x000012dc Section: menu.o,.data.a
+0x000012dc    _joy_timestamp
+0x000012e0 Section: menu.o,.data.c
+0x000012e0    l2
+0x000012e4 Section: timer.o,.text.0
+0x000012e4    _GetTimer
+0x000012f0 Section: timer.o,.text.1
+0x000012f0    _CheckTimer
+0x00001303    l5
+0x00001305    l6
+0x00001309 Section: <internal>,__ctors_start__
+0x00001309    __ctors_start__
+0x00001309 Section: interrupts.o,.ctor.100.interrupts
+0x0000130d Section: <internal>,__ctors_end__
+0x0000130d    __ctors_end__
+0x0000130d Section: <internal>,__dtors_start__
+0x0000130d    __dtors_start__
+0x0000130d Section: <internal>,__dtors_end__
+0x0000130d    __dtors_end__
+0x0000130d Section: <internal>,__bss_start__
+0x00001310    __bss_start__
+0x00001310 Section: main.o,.bss.20
+0x00001310    _statusword
+0x00001314 Section: main.o,.bss.21
+0x00001314    _menupage
+0x00001315 Section: main.o,.bss.24
+0x00001318    _menuindex
+0x0000131c Section: main.o,.bss.25
+0x0000131c    _moremenu
+0x00001320 Section: main.o,.bss.28
+0x00001320    l35
+0x000013f2 Section: ps2.o,.bss.6
+0x000013f4    _kbbuffer
+0x000013fe Section: osd.o,.bss.8
+0x00001400    l9
+0x00001404 Section: osd.o,.bss.9
+0x00001404    l10
+0x00001408 Section: osd.o,.bss.a
+0x00001408    l11
+0x0000140c Section: osd.o,.bss.b
+0x0000140c    l12
+0x00001410 Section: menu.o,.bss.b
+0x00001410    _menu_longpress
+0x00001411 Section: menu.o,.bss.d
+0x00001414    l1
+0x00001418 Section: menu.o,.bss.e
+0x00001418    l3
+0x0000141c Section: <internal>,__bss_end__
+0x0000141c    __bss_end__
