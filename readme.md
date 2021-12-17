@@ -1,7 +1,7 @@
-MIST tutorials - DECA port
+MIST tutorials DeMiSTtified (DECA port)
 ==============
 
-https://github.com/mist-devel/mist-board/tree/master/tutorials
+Ported from MiST https://github.com/mist-devel/mist-board/tree/master/tutorials
 
 LED
 ---
@@ -17,3 +17,4 @@ SoC
 ---
 
 A Z80 based System on a Chip (SoC) domonstrating all major components and concepts used on the MIST board.
+
